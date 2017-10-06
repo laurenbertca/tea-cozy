@@ -1,18 +1,41 @@
+
 html, body{
    padding: 0;
    margin: 0;
 }
 
-header {
-	display: inline-flex;
+body, a {
+	font-family: Helvetica;
+	font-size 22px;
+	color: seashell;
+	background-color: black;
+	opacity: 0.9;
+}
+
+.header {
+	display: flex;
 	height: 69px;
 	border-bottom: 1px solid seashell;
 	position: fixed;
-	background-color: black;
 	width: 100%;
 	align-items: center;
+	z-index: 20;
 }
 
+.nav-header-links {
+	display: inline-flex;
+	justify-content: flex-end;
+	margin-right: 10px;
+}
+
+.header-link {
+	margin-right: 30px;
+}
+
+.header-logo {
+	display: inline-flex;
+	width: 100%;
+}
 
 
 .header-logo img {
