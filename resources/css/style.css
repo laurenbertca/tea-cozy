@@ -54,7 +54,7 @@ body, a {
 
 }
 
-.mission {
+#mission {
 	display: flex;
 	background: url(../../resources/images/img-mission-background.jpg);
 	height: 700px;
@@ -73,7 +73,7 @@ body, a {
 	top: 50%;
 }
 
-.featured-tea {
+#featured-tea {
 	display: inline-flex;
 	flex-direction: column;
 
@@ -110,7 +110,7 @@ body, a {
 	height: 200px;
 }
 
-.locations {
+#locations {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
