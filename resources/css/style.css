@@ -118,7 +118,6 @@ body, a {
 	width: 1200px;
 	height: 500px;
 	background-image: url(../../resources/images/img-locations-background.jpg);
-	background-position: 10%;
 }
 
 .locations-text {
@@ -126,10 +125,9 @@ body, a {
 }
 
 .various-locations {
-	margin: auto auto;
 	display: inline-flex;
 	justify-content: space-between;
-	height: 500px;
+	align-items: center;
 	max-width: 1000px;
 }
 
@@ -137,12 +135,25 @@ body, a {
 	display: inline-flex;
 	flex-direction: column;
 	width: 300px;
+	height: 280px;
 	background-color: black;
 	text-align: center;
-	margin: 15px 20px
+	margin: 15px 20px;
 }
 
 .locale h4 {
 	margin-top: 20px;
 
+}
+
+.footer {
+	width: 100%;
+}
+
+.contact-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
 }
