@@ -118,6 +118,7 @@ body, a {
 	width: 1200px;
 	height: 500px;
 	background-image: url(../../resources/images/img-locations-background.jpg);
+	margin-top: 50px;
 }
 
 .locations-text {
@@ -156,4 +157,11 @@ body, a {
 	justify-content: center;
 	align-items: center;
 	height: 200px;
+	margin-bottom: 20px;
+}
+
+.copyright {
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 20px;
 }
